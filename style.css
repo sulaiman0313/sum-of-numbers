@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.div{
+    align-items: center;
+    border: 1px solid red;
+    margin: 150px 500px;
+}
+#index{
+    margin: 10px;
+    color: red;
+    /* background: black; */
+    display: flex;
+}
+#index input{
+    height: 40px;
+    width: 500px;
+    margin: 10px;
+    border: 0;
+    background: rgba(0, 0, 0, 0.2);
+    color: black;
+    border-radius: 30px;
+    justify-content: center;
+    text-align: center;
+}
+#index button{
+    height: 40px;
+    width: 60px;
+    margin-top: 10px;
+    border-radius: 30px;
+
+}
+.sum{
+    border: 1px solid green;
+    width: 50%;
+    height: 50vh;
+    margin-left: 350px;
+    margin-top: -110px;
+}
